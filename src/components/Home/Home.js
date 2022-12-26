@@ -8,7 +8,7 @@ const home = () => {
         <div className='container mx-auto'>
 
             {/* Showing TOTAL Balance, Income $ Expense   */}
-            <div className='grid lg:grid-cols-3 gap-4 md:grid-cols-2 mb-12 m-5 p-8'>
+            <div className='grid lg:grid-cols-3 gap-4 md:grid-cols-2 mb-12 m-5 px-8'>
                 <div className='bg-[#56CCF2] rounded-[36px] pt-6 p-5 pr-10'>
                     <h4 className='text-2xl font-extrabold text-[#6D6D6D] text-left'>Balance</h4>
                     <p className='text-white text-4xl font-extrabold text-right mt-[37.5px] mb-10'>৳ <span>1582585</span> </p>
@@ -23,7 +23,7 @@ const home = () => {
                 </div>
             </div>
             {/* Add new Button  */}
-            <div className='flex justify-end m-5 p-8'>
+            <div className='flex justify-end m-5 px-8'>
                 <button class="bg-[#56CCF2]  hover:bg-blue-700 text-white py-2 px-4">
                     Add New
                 </button>
